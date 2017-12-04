@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8d4ea19-220e-446e-bfa4-f2e6ea7bbff5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PreviewPlaneController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/PreviewPlaneController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+              <folding>
+                <marker date="1507401735000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1507401735000" expanded="true" signature="131:1003" ph="{...}" />
+                <marker date="1507401735000" expanded="true" signature="283:545" ph="{...}" />
+                <marker date="1507401735000" expanded="true" signature="576:917" ph="{...}" />
+                <marker date="1507401735000" expanded="true" signature="642:914" ph="{...}" />
+                <marker date="1507401735000" expanded="true" signature="690:910" ph="{...}" />
+                <marker date="1507401735000" expanded="true" signature="938:1001" ph="{...}" />
+                <marker date="1507401735000" expanded="true" signature="962:998" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/DatabaseController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="55" />
+              <folding>
+                <marker date="1510429365000" expanded="false" signature="6:32" ph="..." />
+                <marker date="1510429365000" expanded="true" signature="65:455" ph="{...}" />
+                <marker date="1510429365000" expanded="true" signature="159:321" ph="{...}" />
+                <marker date="1510429365000" expanded="true" signature="271:318" ph="{...}" />
+                <marker date="1510429365000" expanded="true" signature="364:453" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeSquareLevelsDatabase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MakeSquareLevelsDatabase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="86" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="86" />
+              <folding>
+                <marker date="1510258077000" expanded="false" signature="6:37" ph="..." />
+                <marker date="1510258077000" expanded="true" signature="76:415" ph="{...}" />
+                <marker date="1510258077000" expanded="true" signature="184:413" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameTile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508007595000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1508007595000" expanded="true" signature="117:1345" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="245:302" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="329:583" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="629:779" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="682:776" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="720:772" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="805:939" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="826:936" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="849:874" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="882:915" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="967:1343" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="1175:1340" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="1259:1336" ph="{...}" />
+                <marker date="1508007595000" expanded="true" signature="1287:1331" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareGamePlaneView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/SquareGamePlaneView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <marker date="1510432806000" expanded="false" signature="6:59" ph="..." />
+                <marker date="1510432806000" expanded="true" signature="100:1893" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="305:539" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="570:899" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="618:896" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="666:892" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="932:1523" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="980:1520" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1028:1516" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1125:1178" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1236:1289" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1347:1400" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1458:1511" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1564:1714" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1605:1629" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1665:1689" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1735:1891" ph="{...}" />
+                <marker date="1510432806000" expanded="true" signature="1759:1795" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveSquareLevel.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SaveSquareLevel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1510505843000" expanded="true" signature="6:37" ph="..." />
+                <marker date="1510505843000" expanded="true" signature="120:272" ph="{...}" />
+                <marker date="1510505843000" expanded="true" signature="161:270" ph="{...}" />
+                <marker date="1510505843000" expanded="true" signature="230:267" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareLevelEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SquareLevelEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <marker date="1510503621000" expanded="true" signature="6:51" ph="..." />
+                <marker date="1510503621000" expanded="true" signature="137:880" ph="{...}" />
+                <marker date="1510503621000" expanded="true" signature="200:245" ph="{...}" />
+                <marker date="1510503621000" expanded="true" signature="285:800" ph="{...}" />
+                <marker date="1510503621000" expanded="true" signature="400:767" ph="{...}" />
+                <marker date="1510503621000" expanded="true" signature="668:729" ph="{...}" />
+                <marker date="1510503621000" expanded="true" signature="838:878" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareGameView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/SquareGameView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <marker date="1508708456000" expanded="false" signature="6:59" ph="..." />
+                <marker date="1508708456000" expanded="true" signature="95:371" ph="{...}" />
+                <marker date="1508708456000" expanded="true" signature="119:369" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareGamePlaneMediator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGamePlaneMediator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <marker date="1510429416000" expanded="true" signature="89:392" ph="{...}" />
+                <marker date="1510429416000" expanded="true" signature="255:331" ph="{...}" />
+                <marker date="1510429416000" expanded="true" signature="365:390" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareGameMediator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGameMediator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1508704985000" expanded="true" signature="84:257" ph="{...}" />
+                <marker date="1508704985000" expanded="true" signature="175:196" ph="{...}" />
+                <marker date="1508704985000" expanded="true" signature="230:255" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>board</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/context/api/ContextStartupFlags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/context/api/ContextKeys.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ClickDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ExampleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/social/controller/LoadSceneCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ExampleMediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGamePlaneMediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/PlayButtonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/SignalsContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/command/impl/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/main/MainRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/PlayButtonMediator.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/main/MainContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/SignalsRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Rebirth/Assets/Scripts/Character/CharacterControllerScript.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/myfirstproject/MyFirstContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/myfirstproject/MyFirstProjectRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B63E63A-4A80-480D-BD2F-AACF76D58D93/d4/47aad795/Component.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/reflector/impl/ReflectionBinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/SquareGamePlaneView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/social/SocialRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/myfirstproject/view/ClickDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/myfirstproject/view/ExampleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/signal/impl/Signal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/CameraScreenResolution.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MakeSquareLevelsDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/mediation/impl/EventView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/MainMenuMediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/mediation/impl/View.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/MainMenuView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/PixelDensityCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Commands/AppStartCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Signals/AppStartSignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/PreviewPlaneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Signals/StartLevelSignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SquareLevelEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/game/controller/GameOverCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Commands/ShowMenuCommand.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/DatabaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Rebirth/Assets/Scripts/LocalMap/LocalMapGenerator.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/6e/7bd51834/Void.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../Rebirth/Assets/Scripts/MapGenerator.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Commands/StartLevelCommand.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/injector/impl/Injector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Commands/ClearContextCommand.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/game/view/EnemyView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/game/view/ShipView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/SquareLevelsDataBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SaveSquareLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/SquareGameView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/PreviewPlaneEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Rebirth/Assets/Scripts/MapDisplay.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Context/MainSceneContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/RestartButtonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/game/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Commands/ShowSquareGameCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGameMediator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/game/GameContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/GameTileEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B63E63A-4A80-480D-BD2F-AACF76D58D93/a6/b596a029/GameObject.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/controller/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/context/impl/ContextView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Context/MainSceneRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/signal/StartSignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Rebirth/Assets/Editor/MapGeneratorEditor.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/PreviewPlaneEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraScreenResolution.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PreviewPlaneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/GameTileEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/myfirstproject/MyFirstProjectRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Signals/StartLevelSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Signals/AppStartSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ExampleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Commands/StartLevelCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Context/MenuSceneRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/LevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/PlayButtonView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mediators/PlayButtonMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Context/GameSceneContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/RestartButtonView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Context/GameSceneRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Commands/AppStartCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mediators/MainMenuMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Context/MenuSceneContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Commands/ShowSquareGameCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Context/MainSceneRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGameMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/MainMenuView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/SquareGameView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Commands/ShowMenuCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Commands/ClearContextCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/MakeSquareLevelsDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/DatabaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GamePlaneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/SquareGamePlaneView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Context/MainSceneContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/DatabaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGamePlaneMediator.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/6e/7bd51834/Void.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/SquareGamePlaneView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/SquareLevelsDataBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/SquareLevelEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/SaveSquareLevel.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replicator (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8d4ea19-220e-446e-bfa4-f2e6ea7bbff5" name="Default" comment="" />
+      <created>1507146151124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507146151124</updated>
+      <workItem from="1507146153910" duration="4926000" />
+      <workItem from="1507230550163" duration="301000" />
+      <workItem from="1507397945961" duration="779000" />
+      <workItem from="1507398978976" duration="3504000" />
+      <workItem from="1507577050658" duration="4235000" />
+      <workItem from="1507994071720" duration="5911000" />
+      <workItem from="1508091773530" duration="807000" />
+      <workItem from="1508185064741" duration="1470000" />
+      <workItem from="1508263497404" duration="7032000" />
+      <workItem from="1508689483505" duration="3594000" />
+      <workItem from="1508702875588" duration="4733000" />
+      <workItem from="1510254546613" duration="1772000" />
+      <workItem from="1510415220616" duration="322000" />
+      <workItem from="1510422894106" duration="4732000" />
+      <workItem from="1510443330267" duration="370000" />
+      <workItem from="1510484338720" duration="155000" />
+      <workItem from="1510484728421" duration="2874000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47517000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs</url>
+          <line>21</line>
+          <properties startOffset="428" endOffset="458" documentPath="$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs</url>
+          <line>15</line>
+          <properties startOffset="343" endOffset="375" documentPath="$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="41" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/mediation/impl/EventView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/myfirstproject/view/ClickDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/signal/impl/Signal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/SignalsRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/signal/StartSignal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Signals/StartLevelSignal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Signals/AppStartSignal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/mediation/impl/View.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/command/impl/Command.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/reflector/impl/ReflectionBinder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/context/impl/ContextView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/PlayButtonView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/SignalsContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/main/MainContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/injector/impl/Injector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="291" column="0" lean-forward="false" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/RestartButtonMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1508276075000" expanded="true" signature="6:74" ph="..." />
+            <marker date="1508276075000" expanded="true" signature="182:251" ph="/* [Inject] ... */" />
+            <marker date="1508276075000" expanded="true" signature="288:393" ph="{...}" />
+            <marker date="1508276075000" expanded="true" signature="420:461" ph="{...}" />
+            <marker date="1508276075000" expanded="true" signature="495:548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/RestartButtonView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Context/GameSceneRoot.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Context/GameSceneContext.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/scripts/strange/extensions/context/api/ContextKeys.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ExampleMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/controller/StartCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/multiplecontexts/social/controller/LoadSceneCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B63E63A-4A80-480D-BD2F-AACF76D58D93/d4/47aad795/Component.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ClickDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/StrangeIoC/examples/Assets/scripts/signalsproject/view/ExampleView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B63E63A-4A80-480D-BD2F-AACF76D58D93/a6/b596a029/GameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10650">
+          <caret line="710" column="48" lean-forward="true" selection-start-line="710" selection-start-column="48" selection-end-line="710" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Commands/AppStartCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Commands/ShowMenuCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Commands/StartLevelCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/PlayButtonMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/LevelData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Commands/ClearContextCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Commands/ShowSquareGameCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/MainMenuMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/MainMenuView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Context/MainSceneRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/6e/7bd51834/Void.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Context/MainSceneContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="57" column="64" lean-forward="false" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+          <folding>
+            <marker date="1510427176000" expanded="false" signature="6:280" ph="..." />
+            <marker date="1510427176000" expanded="true" signature="385:391" ph="{...}" />
+            <marker date="1510427176000" expanded="true" signature="484:490" ph="{...}" />
+            <marker date="1510427176000" expanded="true" signature="580:586" ph="{...}" />
+            <marker date="1510427176000" expanded="true" signature="678:818" ph="{...}" />
+            <marker date="1510427176000" expanded="true" signature="864:1024" ph="{...}" />
+            <marker date="1510427176000" expanded="true" signature="1064:1691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508007595000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1508007595000" expanded="true" signature="117:1345" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="245:302" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="329:583" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="629:779" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="682:776" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="720:772" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="805:939" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="826:936" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="849:874" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="882:915" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="967:1343" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="1175:1340" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="1259:1336" ph="{...}" />
+            <marker date="1508007595000" expanded="true" signature="1287:1331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGamePlaneMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1510429416000" expanded="true" signature="89:392" ph="{...}" />
+            <marker date="1510429416000" expanded="true" signature="255:331" ph="{...}" />
+            <marker date="1510429416000" expanded="true" signature="365:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mediators/SquareGameMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1508704985000" expanded="true" signature="84:257" ph="{...}" />
+            <marker date="1508704985000" expanded="true" signature="175:196" ph="{...}" />
+            <marker date="1508704985000" expanded="true" signature="230:255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/PreviewPlaneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <marker date="1507401735000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1507401735000" expanded="true" signature="131:1003" ph="{...}" />
+            <marker date="1507401735000" expanded="true" signature="283:545" ph="{...}" />
+            <marker date="1507401735000" expanded="true" signature="576:917" ph="{...}" />
+            <marker date="1507401735000" expanded="true" signature="642:914" ph="{...}" />
+            <marker date="1507401735000" expanded="true" signature="690:910" ph="{...}" />
+            <marker date="1507401735000" expanded="true" signature="938:1001" ph="{...}" />
+            <marker date="1507401735000" expanded="true" signature="962:998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/DatabaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <marker date="1510429365000" expanded="false" signature="6:32" ph="..." />
+            <marker date="1510429365000" expanded="true" signature="65:455" ph="{...}" />
+            <marker date="1510429365000" expanded="true" signature="159:321" ph="{...}" />
+            <marker date="1510429365000" expanded="true" signature="271:318" ph="{...}" />
+            <marker date="1510429365000" expanded="true" signature="364:453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MakeSquareLevelsDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="86" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="86" />
+          <folding>
+            <marker date="1510258077000" expanded="false" signature="6:37" ph="..." />
+            <marker date="1510258077000" expanded="true" signature="76:415" ph="{...}" />
+            <marker date="1510258077000" expanded="true" signature="184:413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/SquareLevelsDataBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1510503570000" expanded="false" signature="6:66" ph="..." />
+            <marker date="1510503570000" expanded="true" signature="120:160" ph="{...}" />
+            <marker date="1510503570000" expanded="true" signature="199:266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SquareLevelEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <marker date="1510503621000" expanded="true" signature="6:51" ph="..." />
+            <marker date="1510503621000" expanded="true" signature="137:880" ph="{...}" />
+            <marker date="1510503621000" expanded="true" signature="200:245" ph="{...}" />
+            <marker date="1510503621000" expanded="true" signature="285:800" ph="{...}" />
+            <marker date="1510503621000" expanded="true" signature="400:767" ph="{...}" />
+            <marker date="1510503621000" expanded="true" signature="668:729" ph="{...}" />
+            <marker date="1510503621000" expanded="true" signature="838:878" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/SquareGameView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1508708456000" expanded="false" signature="6:59" ph="..." />
+            <marker date="1508708456000" expanded="true" signature="95:371" ph="{...}" />
+            <marker date="1508708456000" expanded="true" signature="119:369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/View/SquareGamePlaneView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <marker date="1510432806000" expanded="false" signature="6:59" ph="..." />
+            <marker date="1510432806000" expanded="true" signature="100:1893" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="305:539" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="570:899" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="618:896" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="666:892" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="932:1523" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="980:1520" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1028:1516" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1125:1178" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1236:1289" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1347:1400" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1458:1511" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1564:1714" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1605:1629" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1665:1689" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1735:1891" ph="{...}" />
+            <marker date="1510432806000" expanded="true" signature="1759:1795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SaveSquareLevel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1510505843000" expanded="true" signature="6:37" ph="..." />
+            <marker date="1510505843000" expanded="true" signature="120:272" ph="{...}" />
+            <marker date="1510505843000" expanded="true" signature="161:270" ph="{...}" />
+            <marker date="1510505843000" expanded="true" signature="230:267" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
