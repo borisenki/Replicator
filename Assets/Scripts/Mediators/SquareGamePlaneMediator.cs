@@ -12,10 +12,17 @@ public class SquareGamePlaneMediator : Mediator
 	{
 		view.levelData = databaseController.GetLevelData(1);
 		view.Init();
+		view.SaveLevelSignal.AddListener(onSaveLevel);
+	}
+
+	private void onSaveLevel()
+	{
+		databaseController.AddLevelData(view.GetLevelDataForSave());
 	}
 
 	public override void OnRemove()
 	{
+		view.SaveLevelSignal.RemoveListener(onSaveLevel);
 		base.OnRemove();
 	}
 }

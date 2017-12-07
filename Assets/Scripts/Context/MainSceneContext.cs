@@ -54,6 +54,7 @@ public class MainSceneContext : MVCSContext
 		mediationBinder.BindView<MainMenuView>().ToMediator<MainMenuMediator>();
 		mediationBinder.BindView<SquareGameView>().ToMediator<SquareGameMediator>();
 		mediationBinder.BindView<SquareGamePlaneView>().ToMediator<SquareGamePlaneMediator>();
+		mediationBinder.BindView<PreviewPlaneView>().ToMediator<PreviewPlaneMediator>();
 
 		injectionBinder.Bind<DatabaseController>().ToSingleton();
 	}

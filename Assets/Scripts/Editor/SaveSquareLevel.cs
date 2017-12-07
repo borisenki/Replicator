@@ -6,11 +6,12 @@ public class SaveSquareLevel : Editor
 {
 	public override void OnInspectorGUI()
 	{
+		SquareGamePlaneView planeView = target as SquareGamePlaneView;
 		base.OnInspectorGUI();
 		
 		if (GUILayout.Button("Save Level"))
 		{
-			Debug.Log("Level Saved");
+			planeView.SaveLevel();
 		}
 	}
 }

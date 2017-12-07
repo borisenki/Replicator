@@ -15,9 +15,26 @@ public class DatabaseController
 		}
 	}
 
+	public void AddLevelData(LevelData levelData)
+	{
+		_squareLevelsDataBase.LevelDatas.Add(levelData);
+		Debug.Log("LevelSaved");
+	}
+
 	public LevelData GetLevelData(int level)
 	{
-		var levelData = _squareLevelsDataBase.LevelDatas[level - 1];
+		LevelData levelData = null;
+		if (_squareLevelsDataBase.LevelDatas.Count >= level)
+		{
+			levelData = _squareLevelsDataBase.LevelDatas[level - 1];
+		}
+		if (levelData == null)
+		{
+			levelData = new LevelData();
+			levelData.colums = 7;
+			levelData.rows = 7;
+			levelData.planeData = new int[49];
+		}
 		return levelData;
 	}
 }
