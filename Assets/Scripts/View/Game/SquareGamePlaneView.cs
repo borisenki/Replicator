@@ -28,9 +28,9 @@ public class SquareGamePlaneView : View
 
 	private void FillZeroTiles()
 	{
-		for (int i = 0; i < levelData.colums; i++)
+		for (int i = 0; i < levelData.rows; i++)
 		{
-			for (int j = 0; j < levelData.rows; j++)
+			for (int j = 0; j < levelData.colums; j++)
 			{
 				GameObject instance = Instantiate(emptyTile, new Vector3(i * cellSize, j * cellSize), Quaternion.identity);
 				instance.transform.SetParent(board.transform);
@@ -41,9 +41,9 @@ public class SquareGamePlaneView : View
 
 	private void InitializeTiles()
 	{
-		for (int i = 0; i < levelData.colums; i++)
+		for (int i = 0; i < levelData.rows; i++)
 		{
-			for (int j = 0; j < levelData.rows; j++)
+			for (int j = 0; j < levelData.colums; j++)
 			{
 				var tile = GetTile(i, j);
 				var adjoingTile = GetTile(i - 1, j);
@@ -89,11 +89,11 @@ public class SquareGamePlaneView : View
 		ld.colums = tiles.GetLength(0);
 		ld.rows = tiles.GetLength(1);
 		ld.planeData = new int[ld.colums * ld.rows];
-		for (int i = 0; i < ld.colums; i++)
+		for (int i = 0; i < ld.rows; i++)
 		{
-			for (int j = 0; j < ld.rows; j++)
+			for (int j = 0; j < ld.colums; j++)
 			{
-				ld.planeData[ld.colums * i + j] = tiles[i, j].state;
+				ld.planeData[ld.rows * i + j] = tiles[i, j].state;
 			}
 		}
 		return ld;
