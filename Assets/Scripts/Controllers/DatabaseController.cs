@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DatabaseController
 {
 	private SquareLevelsDataBase _squareLevelsDataBase;
+	private SquareGameSettings _squareGameSettings;
 	
 	[PostConstruct]
 	public void Init()
@@ -21,6 +23,11 @@ public class DatabaseController
 		Debug.Log("LevelSaved");
 	}
 
+	public List<LevelData> GetLevelsDatas()
+	{
+		return _squareLevelsDataBase.LevelDatas;
+	}
+
 	public LevelData GetLevelData(int level)
 	{
 		LevelData levelData = null;
@@ -36,5 +43,24 @@ public class DatabaseController
 			levelData.planeData = new int[49];
 		}
 		return levelData;
+	}
+
+	public void SetLevelIsCompleted(int level)
+	{
+		if (_squareLevelsDataBase.LevelDatas.Count >= level)
+		{
+			_squareLevelsDataBase.LevelDatas[level - 1].completed = true;
+		}
+	}
+
+	public void CreateGameSettings(int level)
+	{
+		_squareGameSettings = new SquareGameSettings();
+		_squareGameSettings.level = level;
+	}
+
+	public SquareGameSettings GetCurrentGameSettings()
+	{
+		return _squareGameSettings;
 	}
 }

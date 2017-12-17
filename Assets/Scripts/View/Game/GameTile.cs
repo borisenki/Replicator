@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using strange.extensions.mediation.impl;
 using UnityEngine;
 
-public class GameTile : MonoBehaviour
+public class GameTile : View
 {
 	[Range(0, 4)]
 	public int state = 0;
@@ -20,7 +21,7 @@ public class GameTile : MonoBehaviour
 		SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 		var texture = textures[state];
 		spriteRenderer.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0, 0));
-		Debug.Log("GameTile Updated");
+//		Debug.Log("GameTile Updated");
 	}
 
 	public void AddAdjoiningTile(GameTile tile)

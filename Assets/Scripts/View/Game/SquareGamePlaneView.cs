@@ -83,6 +83,26 @@ public class SquareGamePlaneView : View
 		return tiles[x, y];
 	}
 
+	public bool CheckGame()
+	{
+		var result = true;
+		var colums = levelData.colums;
+		var rows = levelData.rows;
+		for (int i = 0; i < rows; i++)
+		{
+			for (int j = 0; j < colums; j++)
+			{
+				var previewState = levelData.planeData[rows * i + j];
+				var gameState = GetTile(i, j).state;
+				if (previewState != gameState)
+				{
+					result = false;
+				}
+			}
+		}
+		return result;
+	}
+
 	public LevelData GetLevelDataForSave()
 	{
 		LevelData ld = new LevelData();
@@ -99,7 +119,7 @@ public class SquareGamePlaneView : View
 		return ld;
 	}
 	
-	void ClearBoard()
+	private void ClearBoard()
 	{
 		if (board != null)
 		{

@@ -32,9 +32,9 @@
           <e p="Commands" t="Include">
             <e p="AppStartCommand.cs" t="Include" />
             <e p="ClearContextCommand.cs" t="Include" />
+            <e p="ShowLevelsCommand.cs" t="Include" />
             <e p="ShowMenuCommand.cs" t="Include" />
             <e p="ShowSquareGameCommand.cs" t="Include" />
-            <e p="StartLevelCommand.cs" t="Include" />
           </e>
           <e p="Context" t="Include">
             <e p="MainSceneContext.cs" t="Include" />
@@ -50,15 +50,34 @@
             <e p="SaveSquareLevel.cs" t="Include" />
           </e>
           <e p="Mediators" t="Include">
-            <e p="MainMenuMediator.cs" t="Include" />
-            <e p="PlayButtonMediator.cs" t="Include" />
-            <e p="PreviewPlaneMediator.cs" t="Include" />
-            <e p="RestartButtonMediator.cs" t="Include" />
-            <e p="SquareGameMediator.cs" t="Include" />
-            <e p="SquareGamePlaneMediator.cs" t="Include" />
+            <e p="Game" t="Include">
+              <e p="Complete" t="Include">
+                <e p="LevelCompletedMediator.cs" t="Include" />
+              </e>
+              <e p="InteractiveGameTileMediator.cs" t="Include" />
+              <e p="PreviewPlaneMediator.cs" t="Include" />
+              <e p="RestartButtonMediator.cs" t="Include" />
+              <e p="SquareGameMediator.cs" t="Include" />
+              <e p="SquareGamePlaneMediator.cs" t="Include" />
+            </e>
+            <e p="Levels" t="Include">
+              <e p="BackButtonMediator.cs" t="Include" />
+              <e p="LevelsListItemMediator.cs" t="Include" />
+              <e p="LevelsListMediator.cs" t="Include" />
+              <e p="LevelsMediator.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="LevelsButtonMediator.cs" t="Include" />
+              <e p="MainMenuMediator.cs" t="Include" />
+              <e p="PlayButtonMediator.cs" t="Include" />
+            </e>
           </e>
           <e p="Signals" t="Include">
             <e p="AppStartSignal.cs" t="Include" />
+            <e p="GamePlaneChangedSignal.cs" t="Include" />
+            <e p="ShowLevelCompletePanelSignal.cs" t="Include" />
+            <e p="ShowLevelsSignal.cs" t="Include" />
+            <e p="ShowMenuSignal.cs" t="Include" />
             <e p="StartLevelSignal.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
@@ -70,15 +89,27 @@
           </e>
           <e p="View" t="Include">
             <e p="Game" t="Include">
+              <e p="Complete" t="Include">
+                <e p="LevelCompletedView.cs" t="Include" />
+              </e>
               <e p="GameTile.cs" t="Include" />
               <e p="InteractiveGameTile.cs" t="Include" />
               <e p="PreviewPlaneView.cs" t="Include" />
+              <e p="RestartButtonView.cs" t="Include" />
               <e p="SquareGamePlaneView.cs" t="Include" />
+              <e p="SquareGameView.cs" t="Include" />
             </e>
-            <e p="MainMenuView.cs" t="Include" />
-            <e p="PlayButtonView.cs" t="Include" />
-            <e p="RestartButtonView.cs" t="Include" />
-            <e p="SquareGameView.cs" t="Include" />
+            <e p="Levels" t="Include">
+              <e p="BackButtonView.cs" t="Include" />
+              <e p="LevelsListItemView.cs" t="Include" />
+              <e p="LevelsListView.cs" t="Include" />
+              <e p="LevelsView.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="LevelsButtonView.cs" t="Include" />
+              <e p="MainMenuView.cs" t="Include" />
+              <e p="PlayButtonView.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="StrangeIoC" t="Include">

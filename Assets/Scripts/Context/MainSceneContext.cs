@@ -40,7 +40,10 @@ public class MainSceneContext : MVCSContext
 	}
 
 	protected override void mapBindings()
-	{	
+	{
+		injectionBinder.Bind<GamePlaneChangedSignal>().ToSingleton();
+		injectionBinder.Bind<ShowLevelCompletePanelSignal>().ToSingleton();
+		
 		commandBinder.Bind<AppStartSignal>().InSequence()
 			.To<AppStartCommand>()
 			.To<ShowMenuCommand>()
@@ -50,11 +53,28 @@ public class MainSceneContext : MVCSContext
 			.To<ClearContextCommand>()
 			.To<ShowSquareGameCommand>();
 
+		commandBinder.Bind<ShowLevelsSignal>().InSequence()
+			.To<ClearContextCommand>()
+			.To<ShowLevelsCommand>();
+
+		commandBinder.Bind<ShowMenuSignal>().InSequence()
+			.To<ClearContextCommand>()
+			.To<ShowMenuCommand>();
+
 		mediationBinder.BindView<PlayButtonView>().ToMediator<PlayButtonMediator>();
+		mediationBinder.BindView<LevelsButtonView>().ToMediator<LevelsButtonMediator>();
 		mediationBinder.BindView<MainMenuView>().ToMediator<MainMenuMediator>();
+		
+		mediationBinder.BindView<LevelsView>().ToMediator<LevelsMediator>();
+		mediationBinder.BindView<LevelsListView>().ToMediator<LevelsListMediator>();
+		mediationBinder.BindView<LevelsListItemView>().ToMediator<LevelsListItemMediator>();
+		mediationBinder.BindView<BackButtonView>().ToMediator<BackButtonMediator>();
+		
 		mediationBinder.BindView<SquareGameView>().ToMediator<SquareGameMediator>();
+		mediationBinder.BindView<InteractiveGameTile>().ToMediator<InteractiveGameTileMediator>();
 		mediationBinder.BindView<SquareGamePlaneView>().ToMediator<SquareGamePlaneMediator>();
 		mediationBinder.BindView<PreviewPlaneView>().ToMediator<PreviewPlaneMediator>();
+		mediationBinder.BindView<LevelCompletedView>().ToMediator<LevelCompletedMediator>();
 
 		injectionBinder.Bind<DatabaseController>().ToSingleton();
 	}

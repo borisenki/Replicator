@@ -7,6 +7,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
+//http://va.lent.in/unity-make-your-lists-functional-with-reorderablelist/
 [CustomEditor(typeof(SquareLevelsDataBase))]
 public class SquareLevelEditor : Editor
 {

@@ -1,7 +1,15 @@
-﻿using UnityEngine;
+﻿using strange.extensions.signal.impl;
+using UnityEngine;
 
 public class InteractiveGameTile : GameTile
 {
+    public Signal tileClickedAndChanged;
+
+    internal void Init()
+    {
+        tileClickedAndChanged = new Signal();
+    }
+    
     public void Increment()
     {
         if (state != 0)
@@ -22,7 +30,7 @@ public class InteractiveGameTile : GameTile
     {
         var x = Camera.main.ScreenToWorldPoint(Input.mousePosition).x; 
         var y = Camera.main.ScreenToWorldPoint(Input.mousePosition).y; 
-        Debug.Log("Touch Game Plane [" + x + "," + y + "]");
+//        Debug.Log("Touch Game Plane [" + x + "," + y + "]");
         if (state == 0)
         {
             state = 1;
@@ -34,6 +42,7 @@ public class InteractiveGameTile : GameTile
                     ((InteractiveGameTile) adjoiningTile).Increment();
                 }
             }
+            tileClickedAndChanged.Dispatch();
         }
     }
 }
