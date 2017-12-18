@@ -1,7 +1,7 @@
 ﻿using strange.extensions.mediation.impl;
 using UnityEngine;
 
-public class SquareGameView : View
+public class SquareGameView : ScreenView
 {
 	public GameObject gameScreen;
 	public Canvas canvas;

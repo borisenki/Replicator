@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-public class MainMenuView : View
+public class MainMenuView : ScreenView
 {
 	internal void Init()
 	{

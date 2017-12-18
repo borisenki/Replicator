@@ -1,7 +1,7 @@
 ﻿using strange.extensions.mediation.impl;
 using UnityEngine;
 
-public class LevelsView : View
+public class LevelsView : ScreenView
 {
     internal void Init()
     {

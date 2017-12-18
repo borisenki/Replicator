@@ -17,6 +17,9 @@ public class ShowSquareGameCommand : Command
 	{
 		Debug.Log("ShowSquareGameCommand");
 		databaseController.CreateGameSettings(level);
-		contextView.AddComponent<SquareGameView>();
+		GameObject go = new GameObject();
+		go.name = "rooooot";
+		go.AddComponent<SquareGameView>();
+		go.transform.parent = contextView.transform;
 	}
 }

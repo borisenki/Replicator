@@ -1,4 +1,5 @@
 ﻿using strange.extensions.mediation.impl;
+using UnityEngine;
 
 public class MainMenuMediator : Mediator
 {
@@ -12,6 +13,6 @@ public class MainMenuMediator : Mediator
 
 	public override void OnRemove()
 	{
-		base.OnRemove();
+		Debug.Log("OnRemove");
 	}
 }

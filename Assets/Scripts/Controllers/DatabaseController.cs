@@ -63,4 +63,9 @@ public class DatabaseController
 	{
 		return _squareGameSettings;
 	}
+
+	public int GetLevelsCount()
+	{
+		return _squareLevelsDataBase.LevelDatas.Count;
+	}
 }

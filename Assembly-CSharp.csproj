@@ -62,6 +62,8 @@
     <Compile Include="Assets\Scripts\Controllers\DatabaseController.cs" />
     <Compile Include="Assets\Scripts\Data\SquareLevelsDataBase.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\Complete\LevelCompletedMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Game\Complete\MainMenuButtonMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Game\Complete\NextLevelButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\InteractiveGameTileMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\PreviewPlaneMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\RestartButtonMediator.cs" />
@@ -86,6 +88,8 @@
     <Compile Include="Assets\Scripts\Utils\ScaleWidthCamera.cs" />
     <Compile Include="Assets\Scripts\Utils\SquareLevelEditor.cs" />
     <Compile Include="Assets\Scripts\View\Game\Complete\LevelCompletedView.cs" />
+    <Compile Include="Assets\Scripts\View\Game\Complete\MainMenuButtonView.cs" />
+    <Compile Include="Assets\Scripts\View\Game\Complete\NextLevelButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\GameTile.cs" />
     <Compile Include="Assets\Scripts\View\Game\InteractiveGameTile.cs" />
     <Compile Include="Assets\Scripts\View\Game\PreviewPlaneView.cs" />
@@ -99,6 +103,7 @@
     <Compile Include="Assets\Scripts\View\Menu\LevelsButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\MainMenuView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\PlayButtonView.cs" />
+    <Compile Include="Assets\Scripts\View\ScreenView.cs" />
     <Compile Include="Assets\StrangeIoC\examples\Assets\scripts\multiplecontexts\game\controller\GameEvent.cs" />
     <Compile Include="Assets\StrangeIoC\examples\Assets\scripts\multiplecontexts\game\controller\GameOverCommand.cs" />
     <Compile Include="Assets\StrangeIoC\examples\Assets\scripts\multiplecontexts\game\controller\RemoveSocialContextCommand.cs" />

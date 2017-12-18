@@ -1,7 +1,7 @@
 ﻿using strange.extensions.mediation.impl;
 using strange.extensions.signal.impl;
 
-public class BackButtonView : View
+public class NextLevelButtonView : View
 {
     public Signal click;
     

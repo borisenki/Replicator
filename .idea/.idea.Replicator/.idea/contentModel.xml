@@ -53,6 +53,8 @@
             <e p="Game" t="Include">
               <e p="Complete" t="Include">
                 <e p="LevelCompletedMediator.cs" t="Include" />
+                <e p="MainMenuButtonMediator.cs" t="Include" />
+                <e p="NextLevelButtonMediator.cs" t="Include" />
               </e>
               <e p="InteractiveGameTileMediator.cs" t="Include" />
               <e p="PreviewPlaneMediator.cs" t="Include" />
@@ -91,6 +93,8 @@
             <e p="Game" t="Include">
               <e p="Complete" t="Include">
                 <e p="LevelCompletedView.cs" t="Include" />
+                <e p="MainMenuButtonView.cs" t="Include" />
+                <e p="NextLevelButtonView.cs" t="Include" />
               </e>
               <e p="GameTile.cs" t="Include" />
               <e p="InteractiveGameTile.cs" t="Include" />
@@ -110,6 +114,7 @@
               <e p="MainMenuView.cs" t="Include" />
               <e p="PlayButtonView.cs" t="Include" />
             </e>
+            <e p="ScreenView.cs" t="Include" />
           </e>
         </e>
         <e p="StrangeIoC" t="Include">

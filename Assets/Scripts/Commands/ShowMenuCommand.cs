@@ -13,13 +13,10 @@ namespace Commands
 		{
 			Debug.Log("ShowMenuCommand");
 			
-			MainMenuView mainMenu = contextView.AddComponent<MainMenuView>();
-			mainMenu.transform.parent = contextView.transform;
-
-			//contextView.AddComponent<MainMenuView>();
-			//var menuView = contextView.GetComponent<MainMenuView>();
-			//menuView.transform.parent = contextView.transform;
-			//mainMenu.transform.parent = contextView.transform;
+			GameObject go = new GameObject();
+			go.name = "rooooot";
+			go.AddComponent<MainMenuView>();
+			go.transform.parent = contextView.transform;
 		}
 	}
 }

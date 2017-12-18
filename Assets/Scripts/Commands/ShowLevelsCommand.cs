@@ -10,6 +10,9 @@ public class ShowLevelsCommand : Command
     public override void Execute()
     {
         Debug.Log("ShowLevelsCommand");
-        contextView.AddComponent<LevelsView>();
+        GameObject go = new GameObject();
+        go.name = "rooooot";
+        go.AddComponent<LevelsView>();
+        go.transform.parent = contextView.transform;
     }
 }

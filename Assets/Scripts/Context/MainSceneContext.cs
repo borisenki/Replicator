@@ -75,6 +75,8 @@ public class MainSceneContext : MVCSContext
 		mediationBinder.BindView<SquareGamePlaneView>().ToMediator<SquareGamePlaneMediator>();
 		mediationBinder.BindView<PreviewPlaneView>().ToMediator<PreviewPlaneMediator>();
 		mediationBinder.BindView<LevelCompletedView>().ToMediator<LevelCompletedMediator>();
+		mediationBinder.BindView<NextLevelButtonView>().ToMediator<NextLevelButtonMediator>();
+		mediationBinder.BindView<MainMenuButtonView>().ToMediator<MainMenuButtonMediator>();
 
 		injectionBinder.Bind<DatabaseController>().ToSingleton();
 	}
