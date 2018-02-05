@@ -1,6 +1,4 @@
-﻿using strange.extensions.mediation.impl;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MainMenuView : ScreenView
 {

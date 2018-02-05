@@ -77,6 +77,8 @@ public class MainSceneContext : MVCSContext
 		mediationBinder.BindView<LevelCompletedView>().ToMediator<LevelCompletedMediator>();
 		mediationBinder.BindView<NextLevelButtonView>().ToMediator<NextLevelButtonMediator>();
 		mediationBinder.BindView<MainMenuButtonView>().ToMediator<MainMenuButtonMediator>();
+		mediationBinder.BindView<RestartButtonView>().ToMediator<RestartButtonMediator>();
+		mediationBinder.BindView<PauseButtonView>().ToMediator<PauseButtonMediator>();
 
 		injectionBinder.Bind<DatabaseController>().ToSingleton();
 	}

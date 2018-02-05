@@ -11,7 +11,7 @@ public class RestartButtonView : View
 		Debug.Log("RestartButtonView Init");
 	}
 
-	public void onClickRestart()
+	private void OnMouseUp()
 	{
 		restart.Dispatch();
 	}

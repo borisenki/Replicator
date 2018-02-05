@@ -13,5 +13,6 @@ public class SquareGameView : ScreenView
 		gameScreen.transform.parent = transform;
 		canvas = gameScreen.GetComponentInChildren<Canvas>();
 		canvas.worldCamera = Camera.main;
+		canvas.planeDistance = 1;
 	}
 }

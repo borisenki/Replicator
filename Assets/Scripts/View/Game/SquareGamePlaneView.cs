@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SquareGamePlaneView : View
 {
-	public float cellSize = 0.5f;
+	public float cellSize = 1f;
 	public LevelData levelData;
 	public GameObject emptyTile;
 	public BoxCollider2D boxCollider;

@@ -7,8 +7,8 @@ public class RestartButtonMediator : Mediator
 	[Inject]
 	public RestartButtonView view { get; set; }
 	
-	//[Inject]
-	//public StartLevelSignal _startLevelSignal { get; set; }
+	[Inject]
+	public StartLevelSignal _startLevelSignal { get; set; }
 	
 	public override void OnRegister()
 	{
@@ -19,11 +19,12 @@ public class RestartButtonMediator : Mediator
 
 	private void onRestart()
 	{
-		//_startLevelSignal.Dispatch(1);
+		_startLevelSignal.Dispatch(1);
 	}
 
 	public override void OnRemove()
 	{
 		Debug.Log("RestartButtonMediator OnRemove");
+		view.restart.RemoveListener(onRestart);
 	}
 }
