@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 224479128362015142}
   - component: {fileID: 222320249563519316}
   - component: {fileID: 114285392346183812}
-  - component: {fileID: 114692635245198284}
+  - component: {fileID: 114070989725617238}
   m_Layer: 5
   m_Name: LevelPausedPanel
   m_TagString: Untagged
@@ -866,6 +866,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114070989725617238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259086666953012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c933b95eed4919aa6c7cce08fc763c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114142096667855448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1591,17 +1602,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114692635245198284
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1259086666953012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d5305786b44806b80ff8d6c3273b7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114736642995663078
 MonoBehaviour:
   m_ObjectHideFlags: 1

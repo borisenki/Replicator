@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Mediators\Game\Complete\MainMenuButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\Complete\NextLevelButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\InteractiveGameTileMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Game\Pause\LevelPauseMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\PauseButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\PreviewPlaneMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\RestartButtonMediator.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Scripts\View\Game\Complete\NextLevelButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\GameTile.cs" />
     <Compile Include="Assets\Scripts\View\Game\InteractiveGameTile.cs" />
+    <Compile Include="Assets\Scripts\View\Game\Pause\LevelPauseView.cs" />
     <Compile Include="Assets\Scripts\View\Game\PauseButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\PreviewPlaneView.cs" />
     <Compile Include="Assets\Scripts\View\Game\RestartButtonView.cs" />

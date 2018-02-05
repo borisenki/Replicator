@@ -59,6 +59,9 @@
                 <e p="NextLevelButtonMediator.cs" t="Include" />
               </e>
               <e p="InteractiveGameTileMediator.cs" t="Include" />
+              <e p="Pause" t="Include">
+                <e p="LevelPauseMediator.cs" t="Include" />
+              </e>
               <e p="PauseButtonMediator.cs" t="Include" />
               <e p="PreviewPlaneMediator.cs" t="Include" />
               <e p="RestartButtonMediator.cs" t="Include" />
@@ -99,6 +102,9 @@
               </e>
               <e p="GameTile.cs" t="Include" />
               <e p="InteractiveGameTile.cs" t="Include" />
+              <e p="Pause" t="Include">
+                <e p="LevelPauseView.cs" t="Include" />
+              </e>
               <e p="PauseButtonView.cs" t="Include" />
               <e p="PreviewPlaneView.cs" t="Include" />
               <e p="RestartButtonView.cs" t="Include" />
