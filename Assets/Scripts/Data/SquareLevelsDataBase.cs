@@ -20,4 +20,6 @@ public class LevelData
 public class SquareGameSettings
 {
 	public int level;
+	public int[] savedState;
+	public bool undoUsed;
 }

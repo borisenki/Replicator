@@ -4,10 +4,10 @@ public class MainMenuView : ScreenView
 {
 	internal void Init()
 	{
-		GameObject menu = Instantiate(Resources.Load("Menu/MainMenu")) as GameObject;
-		menu.name = "MainMenuView";
-		menu.transform.parent = transform;
-		Canvas canvas = menu.GetComponentInChildren<Canvas>();
+		screen = Instantiate(Resources.Load("Menu/MainMenu")) as GameObject;
+		screen.name = "MainMenuView";
+		screen.transform.parent = transform;
+		canvas = screen.GetComponentInChildren<Canvas>();
 		canvas.worldCamera = Camera.main;
 	}
 

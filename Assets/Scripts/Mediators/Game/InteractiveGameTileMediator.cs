@@ -7,11 +7,20 @@ public class InteractiveGameTileMediator : Mediator
     
     [Inject]
     public GamePlaneChangedSignal gamePlaneChangedSignal { get; set; }
+    
+    [Inject]
+    public LockGameSignal lockGameSignal { get; set; }
 
     public override void OnRegister()
     {
         view.Init();
+        lockGameSignal.AddListener(onGameLock);
         view.tileClickedAndChanged.AddListener(onTileChanged);
+    }
+
+    private void onGameLock(bool gameLocked)
+    {
+        view.gameLocked = gameLocked;
     }
 
     private void onTileChanged()
@@ -21,6 +30,7 @@ public class InteractiveGameTileMediator : Mediator
 
     public override void OnRemove()
     {
+        lockGameSignal.RemoveListener(onGameLock);
         view.tileClickedAndChanged.RemoveListener(onTileChanged);
     }
 }

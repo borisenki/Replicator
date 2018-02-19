@@ -10,6 +10,9 @@ public class RestartButtonMediator : Mediator
 	[Inject]
 	public StartLevelSignal _startLevelSignal { get; set; }
 	
+	[Inject]
+	public DatabaseController databaseController { get; set; }
+	
 	public override void OnRegister()
 	{
 		Debug.Log("RestartButtonMediator OnRegister");
@@ -19,7 +22,8 @@ public class RestartButtonMediator : Mediator
 
 	private void onRestart()
 	{
-		_startLevelSignal.Dispatch(1);
+		var currentLevel = databaseController.GetCurrentGameSettings().level;
+		_startLevelSignal.Dispatch(currentLevel);
 	}
 
 	public override void OnRemove()

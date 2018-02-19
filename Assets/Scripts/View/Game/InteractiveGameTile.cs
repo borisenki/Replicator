@@ -4,6 +4,7 @@ using UnityEngine;
 public class InteractiveGameTile : GameTile
 {
     public Signal tileClickedAndChanged;
+    public bool gameLocked { get; set; }
 
     internal void Init()
     {
@@ -28,8 +29,12 @@ public class InteractiveGameTile : GameTile
     
     private void OnMouseUp()
     {
-        var x = Camera.main.ScreenToWorldPoint(Input.mousePosition).x; 
-        var y = Camera.main.ScreenToWorldPoint(Input.mousePosition).y; 
+        if (gameLocked)
+        {
+            return;
+        }
+//        var x = Camera.main.ScreenToWorldPoint(Input.mousePosition).x; 
+//        var y = Camera.main.ScreenToWorldPoint(Input.mousePosition).y; 
 //        Debug.Log("Touch Game Plane [" + x + "," + y + "]");
         if (state == 0)
         {

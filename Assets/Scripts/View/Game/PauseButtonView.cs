@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PauseButtonView : View
 {
-    public Signal restart = new Signal();
+    public Signal pause = new Signal();
 	
     internal void Init()
     {
@@ -13,6 +13,6 @@ public class PauseButtonView : View
 
     private void OnMouseUp()
     {
-        restart.Dispatch();
+        pause.Dispatch();
     }
 }

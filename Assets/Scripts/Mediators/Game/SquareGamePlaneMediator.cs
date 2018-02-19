@@ -37,6 +37,8 @@ public class SquareGamePlaneMediator : Mediator
 			// показываем окошко о пройденом уровне
 			showLevelCompletePanelSignal.Dispatch();
 		}
+		//save curent game plane state
+		databaseController.SaveLevelProgress(view.GetLevelDataForSave().planeData);
 	}
 
 	private void onSaveLevel()

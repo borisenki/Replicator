@@ -4,68 +4,74 @@ using UnityEngine;
 
 public class DatabaseController
 {
-	private SquareLevelsDataBase _squareLevelsDataBase;
-	private SquareGameSettings _squareGameSettings;
-	
-	[PostConstruct]
-	public void Init()
-	{
-		_squareLevelsDataBase = Resources.Load<SquareLevelsDataBase>("SquareLevels");
-		if (_squareLevelsDataBase)
-		{
-			Debug.Log("SquareLevels - loaded");
-		}
-	}
+    private SquareLevelsDataBase _squareLevelsDataBase;
+    private SquareGameSettings _squareGameSettings;
 
-	public void AddLevelData(LevelData levelData)
-	{
-		_squareLevelsDataBase.LevelDatas.Add(levelData);
-		Debug.Log("LevelSaved");
-	}
+    [PostConstruct]
+    public void Init()
+    {
+        _squareLevelsDataBase = Resources.Load<SquareLevelsDataBase>("SquareLevels");
+        if (_squareLevelsDataBase)
+        {
+            Debug.Log("SquareLevels - loaded");
+        }
+    }
 
-	public List<LevelData> GetLevelsDatas()
-	{
-		return _squareLevelsDataBase.LevelDatas;
-	}
+    public void AddLevelData(LevelData levelData)
+    {
+        _squareLevelsDataBase.LevelDatas.Add(levelData);
+        Debug.Log("LevelSaved");
+    }
 
-	public LevelData GetLevelData(int level)
-	{
-		LevelData levelData = null;
-		if (_squareLevelsDataBase.LevelDatas.Count >= level)
-		{
-			levelData = _squareLevelsDataBase.LevelDatas[level - 1];
-		}
-		if (levelData == null)
-		{
-			levelData = new LevelData();
-			levelData.colums = 7;
-			levelData.rows = 7;
-			levelData.planeData = new int[49];
-		}
-		return levelData;
-	}
+    public List<LevelData> GetLevelsDatas()
+    {
+        return _squareLevelsDataBase.LevelDatas;
+    }
 
-	public void SetLevelIsCompleted(int level)
-	{
-		if (_squareLevelsDataBase.LevelDatas.Count >= level)
-		{
-			_squareLevelsDataBase.LevelDatas[level - 1].completed = true;
-		}
-	}
+    public LevelData GetLevelData(int level)
+    {
+        LevelData levelData = null;
+        if (_squareLevelsDataBase.LevelDatas.Count >= level)
+        {
+            levelData = _squareLevelsDataBase.LevelDatas[level - 1];
+        }
+        if (levelData == null)
+        {
+            levelData = new LevelData();
+            levelData.colums = 7;
+            levelData.rows = 7;
+            levelData.planeData = new int[49];
+        }
+        return levelData;
+    }
 
-	public void CreateGameSettings(int level)
-	{
-		_squareGameSettings = new SquareGameSettings();
-		_squareGameSettings.level = level;
-	}
+    public void SetLevelIsCompleted(int level)
+    {
+        if (_squareLevelsDataBase.LevelDatas.Count >= level)
+        {
+            _squareLevelsDataBase.LevelDatas[level - 1].completed = true;
+        }
+    }
 
-	public SquareGameSettings GetCurrentGameSettings()
-	{
-		return _squareGameSettings;
-	}
+    public void CreateGameSettings(int level)
+    {
+        _squareGameSettings = new SquareGameSettings();
+        _squareGameSettings.level = level;
+    }
 
-	public int GetLevelsCount()
-	{
-		return _squareLevelsDataBase.LevelDatas.Count;
-	}
+    public void SaveLevelProgress(int[] levelStates)
+    {
+        _squareGameSettings.savedState = levelStates;
+        _squareGameSettings.undoUsed = false;
+    }
+
+    public SquareGameSettings GetCurrentGameSettings()
+    {
+        return _squareGameSettings;
+    }
+
+    public int GetLevelsCount()
+    {
+        return _squareLevelsDataBase.LevelDatas.Count;
+    }
 }

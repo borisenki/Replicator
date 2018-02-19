@@ -60,6 +60,7 @@
               </e>
               <e p="InteractiveGameTileMediator.cs" t="Include" />
               <e p="Pause" t="Include">
+                <e p="ContinueButtonMediator.cs" t="Include" />
                 <e p="LevelPauseMediator.cs" t="Include" />
               </e>
               <e p="PauseButtonMediator.cs" t="Include" />
@@ -78,14 +79,19 @@
               <e p="LevelsButtonMediator.cs" t="Include" />
               <e p="MainMenuMediator.cs" t="Include" />
               <e p="PlayButtonMediator.cs" t="Include" />
+              <e p="PlayPanelContinueGameMediator.cs" t="Include" />
+              <e p="PlayPanelNewGameMediator.cs" t="Include" />
             </e>
           </e>
           <e p="Signals" t="Include">
             <e p="AppStartSignal.cs" t="Include" />
             <e p="GamePlaneChangedSignal.cs" t="Include" />
+            <e p="LockGameSignal.cs" t="Include" />
             <e p="ShowLevelCompletePanelSignal.cs" t="Include" />
+            <e p="ShowLevelPausedPanelSignal.cs" t="Include" />
             <e p="ShowLevelsSignal.cs" t="Include" />
             <e p="ShowMenuSignal.cs" t="Include" />
+            <e p="ShowPlayPanelNewGameSignal.cs" t="Include" />
             <e p="StartLevelSignal.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
@@ -103,6 +109,7 @@
               <e p="GameTile.cs" t="Include" />
               <e p="InteractiveGameTile.cs" t="Include" />
               <e p="Pause" t="Include">
+                <e p="ContinueButtonView.cs" t="Include" />
                 <e p="LevelPauseView.cs" t="Include" />
               </e>
               <e p="PauseButtonView.cs" t="Include" />
@@ -121,6 +128,8 @@
               <e p="LevelsButtonView.cs" t="Include" />
               <e p="MainMenuView.cs" t="Include" />
               <e p="PlayButtonView.cs" t="Include" />
+              <e p="PlayPanelContinueGameView.cs" t="Include" />
+              <e p="PlayPanelNewGameView.cs" t="Include" />
             </e>
             <e p="ScreenView.cs" t="Include" />
           </e>

@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Mediators\Game\Complete\MainMenuButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\Complete\NextLevelButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\InteractiveGameTileMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Game\Pause\ContinueButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\Pause\LevelPauseMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\PauseButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\PreviewPlaneMediator.cs" />
@@ -78,11 +79,16 @@
     <Compile Include="Assets\Scripts\Mediators\Menu\LevelsButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Menu\MainMenuMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Menu\PlayButtonMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Menu\PlayPanelContinueGameMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Menu\PlayPanelNewGameMediator.cs" />
     <Compile Include="Assets\Scripts\Signals\AppStartSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\GamePlaneChangedSignal.cs" />
+    <Compile Include="Assets\Scripts\Signals\LockGameSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowLevelCompletePanelSignal.cs" />
+    <Compile Include="Assets\Scripts\Signals\ShowLevelPausedPanelSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowLevelsSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowMenuSignal.cs" />
+    <Compile Include="Assets\Scripts\Signals\ShowPlayPanelNewGameSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\StartLevelSignal.cs" />
     <Compile Include="Assets\Scripts\Utils\CameraScreenResolution.cs" />
     <Compile Include="Assets\Scripts\Utils\PixelDensityCamera.cs" />
@@ -92,6 +98,7 @@
     <Compile Include="Assets\Scripts\View\Game\Complete\NextLevelButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\GameTile.cs" />
     <Compile Include="Assets\Scripts\View\Game\InteractiveGameTile.cs" />
+    <Compile Include="Assets\Scripts\View\Game\Pause\ContinueButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\Pause\LevelPauseView.cs" />
     <Compile Include="Assets\Scripts\View\Game\PauseButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\PreviewPlaneView.cs" />
@@ -105,6 +112,8 @@
     <Compile Include="Assets\Scripts\View\Menu\LevelsButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\MainMenuView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\PlayButtonView.cs" />
+    <Compile Include="Assets\Scripts\View\Menu\PlayPanelContinueGameView.cs" />
+    <Compile Include="Assets\Scripts\View\Menu\PlayPanelNewGameView.cs" />
     <Compile Include="Assets\Scripts\View\ScreenView.cs" />
     <Compile Include="Assets\StrangeIoC\examples\Assets\scripts\multiplecontexts\game\controller\GameEvent.cs" />
     <Compile Include="Assets\StrangeIoC\examples\Assets\scripts\multiplecontexts\game\controller\GameOverCommand.cs" />

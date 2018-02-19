@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Commands;
+﻿using Commands;
 using Mediators;
 using strange.extensions.command.api;
 using strange.extensions.command.impl;
@@ -43,6 +41,9 @@ public class MainSceneContext : MVCSContext
 	{
 		injectionBinder.Bind<GamePlaneChangedSignal>().ToSingleton();
 		injectionBinder.Bind<ShowLevelCompletePanelSignal>().ToSingleton();
+		injectionBinder.Bind<ShowLevelPausedPanelSignal>().ToSingleton();
+		injectionBinder.Bind<ShowPlayPanelNewGameSignal>().ToSingleton();
+		injectionBinder.Bind<LockGameSignal>().ToSingleton();
 		
 		commandBinder.Bind<AppStartSignal>().InSequence()
 			.To<AppStartCommand>()
@@ -64,6 +65,7 @@ public class MainSceneContext : MVCSContext
 		mediationBinder.BindView<PlayButtonView>().ToMediator<PlayButtonMediator>();
 		mediationBinder.BindView<LevelsButtonView>().ToMediator<LevelsButtonMediator>();
 		mediationBinder.BindView<MainMenuView>().ToMediator<MainMenuMediator>();
+		mediationBinder.BindView<PlayPanelContinueGameView>().ToMediator<PlayPanelContinueGameMediator>();
 		
 		mediationBinder.BindView<LevelsView>().ToMediator<LevelsMediator>();
 		mediationBinder.BindView<LevelsListView>().ToMediator<LevelsListMediator>();
@@ -79,7 +81,9 @@ public class MainSceneContext : MVCSContext
 		mediationBinder.BindView<NextLevelButtonView>().ToMediator<NextLevelButtonMediator>();
 		mediationBinder.BindView<MainMenuButtonView>().ToMediator<MainMenuButtonMediator>();
 		mediationBinder.BindView<RestartButtonView>().ToMediator<RestartButtonMediator>();
+		
 		mediationBinder.BindView<PauseButtonView>().ToMediator<PauseButtonMediator>();
+		mediationBinder.BindView<ContinueButtonView>().ToMediator<ContinueButtonMediator>();
 
 		injectionBinder.Bind<DatabaseController>().ToSingleton();
 	}
