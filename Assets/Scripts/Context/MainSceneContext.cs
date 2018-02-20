@@ -44,6 +44,8 @@ public class MainSceneContext : MVCSContext
 		injectionBinder.Bind<ShowLevelPausedPanelSignal>().ToSingleton();
 		injectionBinder.Bind<ShowPlayPanelNewGameSignal>().ToSingleton();
 		injectionBinder.Bind<LockGameSignal>().ToSingleton();
+		injectionBinder.Bind<RestorePreviousLevelStateSignal>().ToSingleton();
+		injectionBinder.Bind<GamePlaneStartChangeSignal>().ToSingleton();
 		
 		commandBinder.Bind<AppStartSignal>().InSequence()
 			.To<AppStartCommand>()
@@ -81,6 +83,7 @@ public class MainSceneContext : MVCSContext
 		mediationBinder.BindView<NextLevelButtonView>().ToMediator<NextLevelButtonMediator>();
 		mediationBinder.BindView<MainMenuButtonView>().ToMediator<MainMenuButtonMediator>();
 		mediationBinder.BindView<RestartButtonView>().ToMediator<RestartButtonMediator>();
+		mediationBinder.BindView<UndoButtonView>().ToMediator<UndoButtonMediator>();
 		
 		mediationBinder.BindView<PauseButtonView>().ToMediator<PauseButtonMediator>();
 		mediationBinder.BindView<ContinueButtonView>().ToMediator<ContinueButtonMediator>();

@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Mediators\Game\RestartButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\SquareGameMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Game\SquareGamePlaneMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Game\UndoButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Levels\BackButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Levels\LevelsListItemMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Levels\LevelsListMediator.cs" />
@@ -83,7 +84,9 @@
     <Compile Include="Assets\Scripts\Mediators\Menu\PlayPanelNewGameMediator.cs" />
     <Compile Include="Assets\Scripts\Signals\AppStartSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\GamePlaneChangedSignal.cs" />
+    <Compile Include="Assets\Scripts\Signals\GamePlaneStartChangeSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\LockGameSignal.cs" />
+    <Compile Include="Assets\Scripts\Signals\RestorePreviousLevelStateSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowLevelCompletePanelSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowLevelPausedPanelSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowLevelsSignal.cs" />
@@ -105,6 +108,7 @@
     <Compile Include="Assets\Scripts\View\Game\RestartButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Game\SquareGamePlaneView.cs" />
     <Compile Include="Assets\Scripts\View\Game\SquareGameView.cs" />
+    <Compile Include="Assets\Scripts\View\Game\UndoButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Levels\BackButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Levels\LevelsListItemView.cs" />
     <Compile Include="Assets\Scripts\View\Levels\LevelsListView.cs" />

@@ -4,11 +4,13 @@ using UnityEngine;
 public class InteractiveGameTile : GameTile
 {
     public Signal tileClickedAndChanged;
+    public Signal tileClickedAndNotChanged;
     public bool gameLocked { get; set; }
 
     internal void Init()
     {
         tileClickedAndChanged = new Signal();
+        tileClickedAndNotChanged = new Signal();
     }
     
     public void Increment()
@@ -33,11 +35,10 @@ public class InteractiveGameTile : GameTile
         {
             return;
         }
-//        var x = Camera.main.ScreenToWorldPoint(Input.mousePosition).x; 
-//        var y = Camera.main.ScreenToWorldPoint(Input.mousePosition).y; 
-//        Debug.Log("Touch Game Plane [" + x + "," + y + "]");
+        
         if (state == 0)
         {
+            tileClickedAndNotChanged.Dispatch();
             state = 1;
             UpdateView();
             foreach (var adjoiningTile in adjoiningTiles)

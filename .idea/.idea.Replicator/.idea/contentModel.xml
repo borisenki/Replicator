@@ -68,6 +68,7 @@
               <e p="RestartButtonMediator.cs" t="Include" />
               <e p="SquareGameMediator.cs" t="Include" />
               <e p="SquareGamePlaneMediator.cs" t="Include" />
+              <e p="UndoButtonMediator.cs" t="Include" />
             </e>
             <e p="Levels" t="Include">
               <e p="BackButtonMediator.cs" t="Include" />
@@ -86,7 +87,9 @@
           <e p="Signals" t="Include">
             <e p="AppStartSignal.cs" t="Include" />
             <e p="GamePlaneChangedSignal.cs" t="Include" />
+            <e p="GamePlaneStartChangeSignal.cs" t="Include" />
             <e p="LockGameSignal.cs" t="Include" />
+            <e p="RestorePreviousLevelStateSignal.cs" t="Include" />
             <e p="ShowLevelCompletePanelSignal.cs" t="Include" />
             <e p="ShowLevelPausedPanelSignal.cs" t="Include" />
             <e p="ShowLevelsSignal.cs" t="Include" />
@@ -117,6 +120,7 @@
               <e p="RestartButtonView.cs" t="Include" />
               <e p="SquareGamePlaneView.cs" t="Include" />
               <e p="SquareGameView.cs" t="Include" />
+              <e p="UndoButtonView.cs" t="Include" />
             </e>
             <e p="Levels" t="Include">
               <e p="BackButtonView.cs" t="Include" />

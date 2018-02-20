@@ -9,6 +9,9 @@ public class InteractiveGameTileMediator : Mediator
     public GamePlaneChangedSignal gamePlaneChangedSignal { get; set; }
     
     [Inject]
+    public GamePlaneStartChangeSignal gamePlaneStartChangeSignal { get; set; }
+    
+    [Inject]
     public LockGameSignal lockGameSignal { get; set; }
 
     public override void OnRegister()
@@ -16,6 +19,12 @@ public class InteractiveGameTileMediator : Mediator
         view.Init();
         lockGameSignal.AddListener(onGameLock);
         view.tileClickedAndChanged.AddListener(onTileChanged);
+        view.tileClickedAndNotChanged.AddListener(onTileStartChange);
+    }
+
+    private void onTileStartChange()
+    {
+        gamePlaneStartChangeSignal.Dispatch();
     }
 
     private void onGameLock(bool gameLocked)
@@ -32,5 +41,6 @@ public class InteractiveGameTileMediator : Mediator
     {
         lockGameSignal.RemoveListener(onGameLock);
         view.tileClickedAndChanged.RemoveListener(onTileChanged);
+        view.tileClickedAndNotChanged.RemoveListener(onTileStartChange);
     }
 }

@@ -83,6 +83,20 @@ public class SquareGamePlaneView : View
 		return tiles[x, y];
 	}
 
+	public void applyStates(int[] states)
+	{
+		var colums = levelData.colums;
+		var rows = levelData.rows;
+		for (int i = 0; i < rows; i++)
+		{
+			for (int j = 0; j < colums; j++)
+			{
+				var state = states[rows * i + j];
+				GetTile(i, j).ApplyState(state);
+			}
+		}
+	}
+
 	public bool CheckGame()
 	{
 		var result = true;

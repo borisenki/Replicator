@@ -13,7 +13,13 @@ public class SquareGamePlaneMediator : Mediator
 	public GamePlaneChangedSignal gamePlaneChangedSignal { get; set; }
 	
 	[Inject]
+	public GamePlaneStartChangeSignal gamePlaneStartChangeSignal { get; set; }
+	
+	[Inject]
 	public ShowLevelCompletePanelSignal showLevelCompletePanelSignal { get; set; }
+	
+	[Inject]
+	public RestorePreviousLevelStateSignal restorePreviousLevelStateSignal { get; set; }
 
 	private int currentLevel;
 
@@ -24,6 +30,21 @@ public class SquareGamePlaneMediator : Mediator
 		view.Init();
 		view.SaveLevelSignal.AddListener(onSaveLevel);
 		gamePlaneChangedSignal.AddListener(onPlaneChanged);
+		gamePlaneStartChangeSignal.AddListener(onStartChange);
+		restorePreviousLevelStateSignal.AddListener(OnRestorePlane);
+	}
+
+	private void onStartChange()
+	{
+		//save curent game plane state
+		databaseController.SaveLevelProgress(view.GetLevelDataForSave().planeData);
+	}
+
+	private void OnRestorePlane()
+	{
+		Debug.Log("OnRestorePlane");
+		view.applyStates(databaseController.GetCurrentGameSettings().savedState);
+		databaseController.GetCurrentGameSettings().undoUsed = true;
 	}
 
 	private void onPlaneChanged()
@@ -37,8 +58,6 @@ public class SquareGamePlaneMediator : Mediator
 			// показываем окошко о пройденом уровне
 			showLevelCompletePanelSignal.Dispatch();
 		}
-		//save curent game plane state
-		databaseController.SaveLevelProgress(view.GetLevelDataForSave().planeData);
 	}
 
 	private void onSaveLevel()
@@ -50,5 +69,7 @@ public class SquareGamePlaneMediator : Mediator
 	{
 		view.SaveLevelSignal.RemoveListener(onSaveLevel);
 		gamePlaneChangedSignal.RemoveListener(onPlaneChanged);
+		gamePlaneStartChangeSignal.RemoveListener(onStartChange);
+		restorePreviousLevelStateSignal.RemoveListener(OnRestorePlane);
 	}
 }

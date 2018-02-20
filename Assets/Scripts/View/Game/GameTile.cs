@@ -35,4 +35,10 @@ public class GameTile : View
 			}
 		}
 	}
+
+	public void ApplyState(int state)
+	{
+		this.state = state;
+		UpdateView();
+	}
 }
