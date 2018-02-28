@@ -23,7 +23,7 @@ public class RestartButtonMediator : Mediator
 	private void onRestart()
 	{
 		var currentLevel = databaseController.GetCurrentGameSettings().level;
-		_startLevelSignal.Dispatch(currentLevel);
+		_startLevelSignal.Dispatch(currentLevel, true);
 	}
 
 	public override void OnRemove()

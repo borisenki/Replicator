@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Mediators\Levels\LevelsListItemMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Levels\LevelsListMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Levels\LevelsMediator.cs" />
+    <Compile Include="Assets\Scripts\Mediators\Menu\GameContinueButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Menu\LevelsButtonMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Menu\MainMenuMediator.cs" />
     <Compile Include="Assets\Scripts\Mediators\Menu\PlayButtonMediator.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Scripts\Signals\ShowLevelPausedPanelSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowLevelsSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowMenuSignal.cs" />
+    <Compile Include="Assets\Scripts\Signals\ShowPlayPanelContinueGameSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\ShowPlayPanelNewGameSignal.cs" />
     <Compile Include="Assets\Scripts\Signals\StartLevelSignal.cs" />
     <Compile Include="Assets\Scripts\Utils\CameraScreenResolution.cs" />
@@ -113,6 +115,7 @@
     <Compile Include="Assets\Scripts\View\Levels\LevelsListItemView.cs" />
     <Compile Include="Assets\Scripts\View\Levels\LevelsListView.cs" />
     <Compile Include="Assets\Scripts\View\Levels\LevelsView.cs" />
+    <Compile Include="Assets\Scripts\View\Menu\GameContinueButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\LevelsButtonView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\MainMenuView.cs" />
     <Compile Include="Assets\Scripts\View\Menu\PlayButtonView.cs" />

@@ -31,7 +31,7 @@ public class NextLevelButtonMediator : Mediator
         }
         else
         {
-            startLevelSignal.Dispatch(currentLevel + 1);
+            startLevelSignal.Dispatch(currentLevel + 1, true);
         }
     }
 

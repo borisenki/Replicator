@@ -7,6 +7,7 @@ Assets/StrangeIoC/examples/Assets/scenes/multiplecontexts/social.unity
 Assets/StrangeIoC/examples/Assets/scenes/multiplecontexts/game.unity
 SceneListEnd?
 dcdb890b59a5ff51a6d9f1c7c8a8831e Assembly-CSharp.dll:.InteractiveGameTile
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UndoButtonView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelsListItemMediator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.extensions.mediation.impl.View
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -131,6 +132,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.examples.multiplecontexts.game.ScoreboardView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainSceneRoot
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UndoButtonMediator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.examples.myfirstproject.ClickDetector
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -144,9 +146,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PauseButtonMediator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.examples.multiplecontexts.game.GameLoop
 a39a69d70c20e3347f70f657f9440ead Assembly-CSharp.dll:strange.examples.multiplecontexts.social.UserTileView
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelContinueGameView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.examples.signals.ClickDetector
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.examples.multiplecontexts.social.UserTileMediator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SquareGameMediator
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelNewGameMediator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PauseButtonView
 66db1b8d530dd623fb24cdfcd87fba5d Assembly-CSharp.dll:.SquareGamePlaneView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelCompletedView
@@ -179,6 +183,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelPauseView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mediators.PlayButtonMediator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelsListMediator
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelNewGameView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SquareGamePlaneMediator
 bb0e90c53f2e02b26cd04e662f658169 Assembly-CSharp.dll:.LevelsListItemView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RestartButtonMediator
@@ -192,6 +197,7 @@ c077dfc7bb8a27ecda3b14488b1164ab Assembly-CSharp.dll:strange.examples.multipleco
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuButtonView
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:strange.examples.multiplecontexts.social.SocialRoot
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelContinueGameMediator
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -212,7 +218,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NextLevelButtonView
 ae3ba1654a755d99c79bd6485ae1604b Assembly-CSharp.dll:.PreviewPlaneView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuMediator
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelNewGameView
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelContinueGameView
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelContinueGameMediator
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayPanelNewGameMediator

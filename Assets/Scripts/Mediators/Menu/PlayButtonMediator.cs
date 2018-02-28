@@ -14,6 +14,12 @@ namespace Mediators
 		
 		[Inject]
 		public ShowPlayPanelNewGameSignal showPlayPanelNewGameSignal { get; set; }
+		
+		[Inject]
+		public ShowPlayPanelContinueGameSignal showPlayPanelContinueGameSignal { get; set; }
+		
+		[Inject]
+		public DatabaseController databaseController { get; set; }
 
 		public override void OnRegister()
 		{
@@ -25,7 +31,16 @@ namespace Mediators
 
 		private void onPlay()
 		{
-			showPlayPanelNewGameSignal.Dispatch();
+			if (databaseController.hasUnfinishedLevel())
+			{
+				//if has saved game
+				showPlayPanelContinueGameSignal.Dispatch();
+			}
+			else
+			{
+				//if not has saved game
+				showPlayPanelNewGameSignal.Dispatch();
+			}
 		}
 
 		public override void OnRemove()

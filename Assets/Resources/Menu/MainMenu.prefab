@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 222181590323482402}
   - component: {fileID: 114089217578778336}
   - component: {fileID: 114912156575005006}
-  - component: {fileID: 114714622576997524}
+  - component: {fileID: 114601128008287126}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -1298,6 +1298,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114601128008287126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867449457032002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5a5151760246208bc81bc76cb5c38e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114601784030391226
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1337,17 +1348,6 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409949341606162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a4cce21e2c41c28c78af6aaf149dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114714622576997524
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1867449457032002}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a4cce21e2c41c28c78af6aaf149dc5, type: 3}
@@ -1583,8 +1583,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114714622576997524}
-        m_MethodName: OnLevelsClick
+      - m_Target: {fileID: 114601128008287126}
+        m_MethodName: OnPlayClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

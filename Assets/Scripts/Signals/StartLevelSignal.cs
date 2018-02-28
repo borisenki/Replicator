@@ -2,7 +2,7 @@
 
 namespace Signals
 {
-	public class StartLevelSignal : Signal<int>
+	public class StartLevelSignal : Signal<int, bool>
 	{
 		//
 	}

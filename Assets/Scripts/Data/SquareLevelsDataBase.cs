@@ -17,9 +17,11 @@ public class LevelData
 	public bool completed;
 }
 
+[Serializable]
 public class SquareGameSettings
 {
 	public int level;
 	public int[] savedState;
 	public bool undoUsed;
+	public bool newGame;
 }

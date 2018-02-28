@@ -77,6 +77,7 @@
               <e p="LevelsMediator.cs" t="Include" />
             </e>
             <e p="Menu" t="Include">
+              <e p="GameContinueButtonMediator.cs" t="Include" />
               <e p="LevelsButtonMediator.cs" t="Include" />
               <e p="MainMenuMediator.cs" t="Include" />
               <e p="PlayButtonMediator.cs" t="Include" />
@@ -94,6 +95,7 @@
             <e p="ShowLevelPausedPanelSignal.cs" t="Include" />
             <e p="ShowLevelsSignal.cs" t="Include" />
             <e p="ShowMenuSignal.cs" t="Include" />
+            <e p="ShowPlayPanelContinueGameSignal.cs" t="Include" />
             <e p="ShowPlayPanelNewGameSignal.cs" t="Include" />
             <e p="StartLevelSignal.cs" t="Include" />
           </e>
@@ -129,6 +131,7 @@
               <e p="LevelsView.cs" t="Include" />
             </e>
             <e p="Menu" t="Include">
+              <e p="GameContinueButtonView.cs" t="Include" />
               <e p="LevelsButtonView.cs" t="Include" />
               <e p="MainMenuView.cs" t="Include" />
               <e p="PlayButtonView.cs" t="Include" />

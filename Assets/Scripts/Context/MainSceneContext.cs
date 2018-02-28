@@ -46,6 +46,7 @@ public class MainSceneContext : MVCSContext
 		injectionBinder.Bind<LockGameSignal>().ToSingleton();
 		injectionBinder.Bind<RestorePreviousLevelStateSignal>().ToSingleton();
 		injectionBinder.Bind<GamePlaneStartChangeSignal>().ToSingleton();
+		injectionBinder.Bind<ShowPlayPanelContinueGameSignal>().ToSingleton();
 		
 		commandBinder.Bind<AppStartSignal>().InSequence()
 			.To<AppStartCommand>()
@@ -65,6 +66,7 @@ public class MainSceneContext : MVCSContext
 			.To<ShowMenuCommand>();
 
 		mediationBinder.BindView<PlayButtonView>().ToMediator<PlayButtonMediator>();
+		mediationBinder.BindView<GameContinueButtonView>().ToMediator<GameContinueButtonMediator>();
 		mediationBinder.BindView<LevelsButtonView>().ToMediator<LevelsButtonMediator>();
 		mediationBinder.BindView<MainMenuView>().ToMediator<MainMenuMediator>();
 		mediationBinder.BindView<PlayPanelContinueGameView>().ToMediator<PlayPanelContinueGameMediator>();

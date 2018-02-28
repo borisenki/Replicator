@@ -17,7 +17,7 @@ public class LevelsListItemMediator : Mediator
 
     private void onClick()
     {
-        startLevelSignal.Dispatch(view.level);
+        startLevelSignal.Dispatch(view.level, true);
     }
 
     public override void OnRemove()

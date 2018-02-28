@@ -17,6 +17,14 @@ public class DatabaseController
         }
     }
 
+    public void resetLevelsProgress()
+    {
+        foreach (LevelData levelData in _squareLevelsDataBase.LevelDatas)
+        {
+            levelData.completed = false;
+        }
+    }
+    
     public void AddLevelData(LevelData levelData)
     {
         _squareLevelsDataBase.LevelDatas.Add(levelData);
@@ -73,5 +81,22 @@ public class DatabaseController
     public int GetLevelsCount()
     {
         return _squareLevelsDataBase.LevelDatas.Count;
+    }
+
+    public bool hasUnfinishedLevel()
+    {
+        if (_squareGameSettings == null)
+        {
+            return false;
+        }
+        return !_squareLevelsDataBase.LevelDatas[_squareGameSettings.level - 1].completed;
+    }
+
+    public void setStartType(bool isNewGame)
+    {
+        if (_squareGameSettings != null)
+        {
+            _squareGameSettings.newGame = isNewGame;
+        }
     }
 }

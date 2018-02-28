@@ -32,6 +32,11 @@ public class SquareGamePlaneMediator : Mediator
 		gamePlaneChangedSignal.AddListener(onPlaneChanged);
 		gamePlaneStartChangeSignal.AddListener(onStartChange);
 		restorePreviousLevelStateSignal.AddListener(OnRestorePlane);
+
+		if (!databaseController.GetCurrentGameSettings().newGame)
+		{
+			view.applyStates(databaseController.GetCurrentGameSettings().savedState);
+		}
 	}
 
 	private void onStartChange()

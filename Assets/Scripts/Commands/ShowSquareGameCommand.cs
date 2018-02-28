@@ -12,11 +12,22 @@ public class ShowSquareGameCommand : Command
 	
 	[Inject]
 	public int level { get; set; }
+	
+	[Inject]
+	public bool newGame { get; set; }
 
 	public override void Execute()
 	{
 		Debug.Log("ShowSquareGameCommand");
-		databaseController.CreateGameSettings(level);
+		if (newGame)
+		{
+			databaseController.CreateGameSettings(level);
+			databaseController.setStartType(true);
+		}
+		else
+		{
+			databaseController.setStartType(false);
+		}
 		GameObject go = new GameObject();
 		go.name = "rooooot";
 		go.AddComponent<SquareGameView>();
